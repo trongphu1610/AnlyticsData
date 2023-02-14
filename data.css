@@ -1,0 +1,1210 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    border: 50px;
+}
+
+.layout {
+    display: flex;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    width: 100%;
+}
+
+.border {
+    margin-left: 20px;
+}
+/* ------------------------------------------------------------------SideBar------------------------------------------------------------------------------------------------- */
+
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 1024px;
+    border: 1px solid #7d7e80;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+/* _____________________________________________Icon Menu ____________________ */
+.body_0 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    margin-left: 28px;
+    margin-right: 210px;
+}
+
+.img_menu21 {
+    height: 21px;
+    width: 33px;
+    margin-top: 3px;
+}
+
+.body_1 {
+    display: flex;
+    flex-direction: row;
+    height: 26.77px;
+    width: 81.34px;
+    background: #FFFFFF;
+    border: 1.5px solid #DDE3E9;
+    border-radius: 5px;
+    margin-left: 6px;
+
+}
+
+.img_english {
+    display: flex;
+    font-size: 10px;
+    height: 17.951839447021484px;
+    width: 18.017250061035156px;
+    margin-top: 4.03px;
+    margin-left: 6.48px;
+    margin-bottom: 4.78px;
+}
+
+.selct1 {
+    height: 12.35468578338623px;
+    width: 100%;
+    margin-top: 6.56px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    border: #FFFFFF;
+    color: #6F6F6F;
+
+}
+
+/* ______________________________________End Icon Menu____________________________ */
+
+
+/* ______________________________Location__________________________________________ */
+.tx_location {
+    height: 30px;
+    width: 157px;
+    color: #707070;
+    margin-top: 58.23px;
+    margin-left: 30px;
+    margin-right: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.body_2 {
+    height: 42px;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1.5px solid #DDE3E9;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 2px;
+    margin-right: 35px;
+}
+
+.img_1 {
+    height: 28px;
+    width: 28px;
+    display: inline-flex;
+    margin-top: 8px;
+    margin-left: 9px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+}
+
+.i_location {
+    display: flex;
+    border: #9e9d9d;
+    width: 192px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #7F8694;
+    margin-right: 66px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* _______________________________End Location_________________________________________ */
+
+
+/* _________________________________Daterange______________________________________________ */
+.tx_daterange {
+    display: flex;
+    height: 30px;
+    width: 157px;
+    color: #707070;
+    margin-top: 26px;
+    margin-left: 30px;
+    margin-right: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.body_3 {
+    height: 42px;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1.5px solid #DDE3E9;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+.img_2 {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+    margin-right: 7px;
+    height: 31px;
+    width: 31px;
+
+}
+
+
+.i_selectdate {
+    display: flex;
+    border: #FFFFFF;
+    height: 30px;
+    width: 192px;
+    margin-top: 6px;
+    margin-right: 62px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #7F8694;
+}
+
+/* ___________________________________End SelecDate_________________________________________________ */
+
+
+/* _______________________________________ViP & Influncer_________________________________________________ */
+.body_41 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.body_4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tx_vip {
+    display: flex;
+    font-size: 16px;
+    color: #707070;
+    height: 30px;
+    margin-bottom: 4px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 26.53px;
+}
+
+.body_5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+/* _______Button On/Off______________________ */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    left: 4px;
+    bottom: 4.53px;
+    right: 5px;
+    background-color: white;
+    -webkit-transition: .6s;
+    transition: .6s;
+
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    transform: translateX(17px);
+}
+
+/* Rounded sliders  */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.tx_influencer {
+    height: 30px;
+    width: 157px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #707070;
+    margin-bottom: 4px;
+}
+
+/* ______End Button On/Off____________________ */
+
+/* __________________________________________________________End Vip & Influncer_________________________________________ */
+
+
+/* ____________________________________________________________Company____________________________________________________ */
+.tx_company {
+    height: 30px;
+    width: 183px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #707070;
+    margin-top: 28.47px;
+    margin-left: 30px;
+    margin-right: 147px;
+}
+
+.body_6 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.body61 {
+    display: flex;
+    flex-direction: row;
+    height: 42px;
+    width: 133px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1.5px solid #949697;
+    border-radius: 5px;
+}
+
+.margin_right17px {
+    margin-right: 17px;
+}
+
+.i_staff {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #7F8694;
+    margin-left: 14px;
+    margin-top: 13px;
+    margin-right: 22px;
+}
+
+.img_down2 {
+    height: 5px;
+    width: 10px;
+    margin-top: 19px;
+    margin-right: 14px;
+    margin-bottom: 18px;
+}
+
+.i_vol {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #7F8694;
+    margin-left: 14px;
+    margin-top: 13px;
+    margin-right: 9px;
+}
+
+/* ________________________________________________________End Company___________________________________________________ */
+
+
+/* ______________________________________________Search & Customer_______________________________________________________ */
+
+.btn_search {
+    height: 42px;
+    width: 300px;
+    background: #0094FF;
+    border: 1.5px solid #DDE3E9;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 21px;
+    margin-bottom: 37px;
+    margin-right: 39px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 124px;
+    padding-right: 123px;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tx_topcustommer {
+    height: 30px;
+    width: 157px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #707070;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.img_menu1 {
+    height: 4px;
+    width: 20px;
+    margin-top: 31.44px;
+    margin-left: 103.19px;
+    margin-right: 49.19px;
+
+}
+
+.body_user1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 29px;
+    margin-bottom: 24.7px;
+    margin-top: -1px;
+}
+
+.img_user {
+    display: flex;
+    height: 36.3px;
+    width: 36.3px;
+
+}
+
+.tx_user {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7F8694;
+    margin-left: 14.7px;
+    margin-top: 5px;
+    height: 17px;
+    width: 111px;
+
+}
+
+.body_user2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 29px;
+    margin-bottom: 19.7px;
+}
+
+.body_user {
+    display: flex;
+    flex-direction: row;
+    margin-left: 29px;
+    margin-bottom: 24.7px;
+}
+/* ______________________________________________________End Search & Customer__________________________________________ */
+
+/* ----------------------------------------------------------The End SideBar--------------------------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------Main-------------------------------------------------------------------------------------------------- */
+.main {
+    width: calc(100% - 360px);
+    height: 100%;
+}
+
+/* ___________________________________________________________Header________________________________________________________ */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #B9B9B9;
+    justify-content: space-between;
+    border-top-right-radius: 18px;
+}
+
+.img_logo {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 14.01px;
+    margin-bottom: 0.06px;
+    height: 70.05668640136719px;
+    width: 112.92454528808594px;
+
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    border-top: 20px;
+}
+
+
+.select2 {
+    height: 19px;
+    width: 105.9px;
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    border: #FFFFFF;
+    margin-bottom: 33px;
+
+}
+
+.img_3 {
+    margin-top: 15px;
+    margin-right: 31px;
+    height: 39.65999984741211px;
+    width: 39.69672393798828px;
+    margin-right: 30.37px;
+    margin-bottom: 23.34px;
+}
+
+/* _________________________________________________________End header_________________________________________________________ */
+
+
+/* ____________________________________________________________Analytics & Heatmap _____________________________________________ */
+
+.d-flex {
+    display: flex;
+}
+
+/* _______________________________________________________Analytics_________________________________________________ */
+
+.analytics {
+    border: 1px solid #ccc;
+    height: 364px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #7d7e80;
+    border-radius: 5px;  
+}
+
+.analytics1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx_analytics {
+
+    color: #6F6F6F;
+    margin-left: 21.65px;
+    margin-top: 19px;
+    margin-bottom: 13px;
+    height: 18px;
+    width: 99px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.body_analytics1 {
+    display: flex;
+    flex-direction: row;
+    height: 31.570466995239258px;
+    width: 112px;
+    background: #FFFFFF;
+    border: 1.5px solid #DDE3E9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.tx_date1 {
+    height: 12.778522491455078px;
+    font-size: 10.5px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #7F8694;
+    width: 72.16106414794922px;
+    margin-top: 9.4px;
+    margin-bottom: 9.3px;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.img_down1 {
+    height: 3.7583887577056885px;
+    width: 7.516777515411377px;
+    margin-top: 13.905px;
+    margin-bottom: 13.9px;
+}
+
+.body_next {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_next2 {
+    height: 17.792451858520508px;
+    width: 17.792451858520508px;
+    background: #F8FAFC;
+    border: 1px solid #DCE7F1;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-right: 12.42px;
+}
+
+.img_next1 {
+    height: 17.792451858520508px;
+    width: 17.792451858520508px;
+    background: #F8FAFC;
+    border: 1px solid #DCE7F1;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.img_41 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 260px;
+    margin-top: 26.21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* __________________________________________________________________________End Analytics__________________________________________________________________________ */
+
+
+
+/* ____________________________________________________________________________Heatmap__________________________________________________________ */
+
+
+.heatmap {
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    height: 364px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #7d7e80;
+    border-radius: 5px;
+
+}
+
+.heatmap1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx_global_heatmap {
+    height: 18px;
+    width: 158px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #6F6F6F;
+    margin-top: 19px;
+    margin-left: 19px;
+    margin-bottom: 13px;
+}
+
+.body_congtru {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -11px;
+}
+
+.img_tru {
+    height: 13px;
+    width: 13px;
+    margin-bottom: 5px;
+    margin-right: -1px;
+}
+
+.img_plus {
+    height: 13px;
+    width: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 11px;
+    margin-top: 7px;
+}
+
+.circle {
+    border-radius: 3px;
+    height: 6px;
+    width: 6px;
+}
+
+.txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #242262;
+    padding: 0 2px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img_4 {
+    display: flex;
+    justify-content: center;
+    height: 261px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ________________________________________________________________________________End Heatmap_______________________________________________________________________ */
+
+
+
+/* __________________________________________________________________________________Customer & Sale Data_____________________________________________________________________ */
+
+.customer {
+    height: 279px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #7d7e80;
+    border-radius: 5px;
+}
+
+.customer1 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.tx_customet {
+    height: 18px;
+    width: 149px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6F6F6F;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.customer11 {
+    display: flex;
+    background-color: white;
+    margin-top: 11px;
+    margin-right: 17px;
+}
+
+.img_menu2 {
+    height: 17.5px;
+    width: 17.5px;
+    margin-left: 2.5px;
+}
+
+.img_datee {
+    display: flex;
+    width: 250px;
+    height: 161px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer1 {
+    display: flex;
+    height: 33px;
+}
+
+.footer2 {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+}
+
+.footer3 {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 49px;
+    margin-right: 54px;
+}
+
+.footer4 {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt1 {
+    display: flex;
+    justify-content: space-around;
+    height: 17px;
+    width: 55px;
+    left: 527px;
+    top: 737px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #242262;
+}
+
+.sales {
+    height: 279px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #7d7e80;
+    border-radius: 5px;
+}
+
+/* __________________________________________________________________End Customer & Sale Data__________________________________________________________________________________ */
+
+
+/* ____________________________________________________________________New Leads_______________________________________________________________________________________________ */
+
+.newlead11 {
+    height: 226px;
+    min-width: 680px;
+    width: 100%;
+    overflow-x: auto;
+    background: #FFFFFF;
+    border: 1.5px solid #7d7e80;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.newlead {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.tx_newlead {
+    height: 18px;
+    width: 101px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6F6F6F;
+    margin-top: 19px;
+    margin-left: 22px;
+    margin-bottom: 13px;
+}
+
+.newlead1 {
+    display: flex;
+    margin-top: 14px;
+    margin-right: 29px;
+    margin-bottom: 13px;
+}
+
+.img_next {
+    margin-left: 7px;
+}
+
+.body_lead {
+    display: flex;
+    flex-direction: row;
+    margin-top: 21px;
+}
+
+.tx_newlead1 {
+    height: 18px;
+    width: 57px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #6F6F6F;
+}
+
+.img_down3 {
+    height: 5px;
+    width: 10px;
+    margin-top: 5px;
+}
+
+#tr1 {
+    height: 46px;
+}
+
+th {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: #5A5C5E;
+}
+
+table,
+th,
+td {
+    border-top: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.margin_left_27px {
+    margin-left: 10px;
+}
+/* ____________________________________________________________________End New Leads____________________________________________________________________ */
+
+/* ____________________________________________________________________Trending____________________________________________________________________ */
+
+.margin_right30 {
+    margin-right: 50px;
+}
+
+.trending {
+    background-color: white;
+    height: 402px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid #7d7e80;
+}
+
+.trending1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.tx_trending {
+    height: 18px;
+    width: 175px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #6F6F6F;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+ 
+#tr2 {
+    height: 34px;
+}
+
+#nation {
+    text-align: center;
+}
+
+#namenation {
+    text-align: center;
+}
+
+.tx_so1 {
+    height: 17px;
+    width: 70px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: #7F8694;
+    margin-right: 10px;
+}
+
+
+
+
+/* ____________________________________________________________________End Trending____________________________________________________________________ */
+
+
+/* ___________________________________________________________________Revenue____________________________________________________________________ */
+
+.body_revenue {
+    height: 108px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #EDF1F4;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #7d7e80;
+}
+
+.tx_revenue11 {
+    height: 18px;
+    width: 76px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #6F6F6F;
+    margin-right: 10px;
+}
+
+.revenue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tx_revenue {
+    height: 18px;
+    width: 96px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #6F6F6F;
+}
+
+.revenue1 {
+    margin-top: 9.36px;
+    margin-right: 17px;
+}
+
+.img_revenue {
+    height: 16.769922256469727px;
+    width: 16.77046775817871px;
+}
+
+.body_revenue1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 19px;
+}
+.tx_revenue1 {
+    height: 19px;
+    width: 101px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: #7F8694;
+}
+.tx_so {
+    height: 21px;
+    width: 74px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #21252C;
+}
+.tx_tangtruong {
+    height: 20px;
+    width: 49px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #81BE00;
+}
+.body_revenue3 {
+    margin-left: 40px;
+}
+.tx_newlead2 {
+    height: 18px;
+    width: 57px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #6F6F6F;
+    margin-right: 20px;
+}
+.tx_revenue {
+    height: 18px;
+    width: 96px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #6F6F6F;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+
+
+
+/* ____________________________________________________________________End Revenue____________________________________________________________________ */
+
+/* __________________________________________________________________________HR__________________________________________________________________________________________________ */
+.hr1 {
+    margin-left: 21px;
+    border: 1px solid #DDE3E9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hr2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #DDE3E9
+}
+
+.hr3 {
+    margin-left: 251px;
+    margin-right: 1px;
+    border: 1px solid #DDE3E9;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.hr0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border: 1px solid #DDE3E9
+}
+
+.hr6 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border: 1px solid #DDE3E9
+}
+
+.hr4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border: 1px solid #DDE3E9
+
+}
+
+.responsive-flex {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding: 20px 20px 0px 20px;
+}
+
+
+.responsive-row-2-flex {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 22px;
+    padding: 20px;
+    width: fit-content;
+}
+
+
+
+.responsive-customer-sales {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 22px;
+}
+
+
+@media only screen and (max-width: 1080px) {
+ 
+    .responsive-row-2-flex {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .responsive-flex {
+        grid-template-columns: 1fr;
+    }
+
+    .responsive-customer-sales {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+
+/* ___________________________________________________________________________THE END HR_______________________________________________________________________________________________ */
+/* Reponsive */
+@media only screen and (max-width: 1400px) {
+    .sideBar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+  }
+
+/* -------------------------------------------------------------------------------------End Main----------------------------------------------------------------------------------------- */
