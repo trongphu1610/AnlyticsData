@@ -1184,7 +1184,7 @@ table {
   }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 390px) {
     .responsive-flex {
         grid-template-columns: 1fr;
     }
