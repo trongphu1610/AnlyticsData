@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="data.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="device-width initial-scale=1">
+    <title>Analytics Data</title>
+</head>
+
+<body>
+    <div class="sideBarReposive" id="showmain">
+        <div class="header111">
+            <img class="img_logo" src="image/logoprotech.png">
+            <div class="header1">
+                <img class="img_3" src="image/icon_menu.png" onclick="showSideBar()" />
+                <script>
+                    function showSideBar() {
+                        document.getElementById("menu").style.display = "block"
+                    }
+                </script>
+
+            </div>
+        </div>
+        <text class="tx_location">LOCATION</text>
+        <div class="body_location_reponsive">
+            <img class="img_1" src="image/icon_find.png" />
+            <input class="i_location" placeholder="Enter Location" />
+        </div>
+        <text class="tx_daterange">DATE RANGE</text>
+        <div class="body_daterange_reponsive">
+            <img class="img_2" src="image/icon_date.png" />
+            <input class="i_selectdate" placeholder="Select Dates" onclick="myDate()" />
+        </div>
+        <div class="body_41">
+            <div class="body_4">
+                <text class="tx_vip">VIP</text>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+
+
+            </div>
+            <div class="body_5">
+                <text class="tx_influencer">
+                    INFLUENCER
+                </text>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+
+        <text class="tx_company">COMPANY TYPE</text>
+        <div class="body_6">
+            <div class="body_company_reponsive margin_right17px">
+                <input class="i_staff" placeholder="Staff Count"></input>
+                <img class="img_down2" src="image/icon_down.png">
+            </div>
+            <div class="body_company_reponsive ">
+                <input class="i_vol " placeholder="Revenue Vol"></input>
+                <img class="img_down2" src="image/icon_down.png">
+            </div>
+
+
+        </div>
+
+        <button class="btn_search_reponsive ">Search</button>
+        <hr width="83%" size="1px" class="hr1">
+        <div class="menu1_reponsive">
+            <text class="tx_topcustommer">TOP CUSTOMERS</text>
+            <img class="img_menu1" src="image/icon_menu1.png">
+        </div>
+        <div class="div_user">
+            <div class="div_user1">
+                <div class="body_user1">
+                    <img class="img_user" src="image/user1.png" />
+                    <text class="tx_user">Ronald Richards</text>
+                </div>
+                <div class="body_user">
+                    <img class="img_user" src="image/user2.png" />
+                    <text class="tx_user">Ralph Edwards</text>
+                </div>
+            </div>
+            <div class="div_user2">
+                <div class="body_user">
+                    <img class="img_user" src="image/user5.png" />
+                    <text class="tx_user">Danielle Lane</text>
+                </div>
+                <div class="body_user2">
+                    <img class="img_user" src="image/user6.png" />
+                    <text class="tx_user">Robert Fox</text>
+                </div>
+            </div>
+        </div>
+        <button class="btn_viewmore">VIEW MORE</button>
+        <div class="footer_icon_reponsive">
+            <img class="icon" src="image/cil_house.png" />
+            <img class="icon" src="image/envelope.png" />
+            <img class="icon" src="image/shopping.png" />
+            <img class="icon" src="image/bell.png" />
+            <img class="icon" src="image/heart.png" />
+            <img class="icon" src="image/profile.png" />
+        </div>
+
+
+
+
+</body>
+
+</html>
