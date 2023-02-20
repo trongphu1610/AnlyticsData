@@ -21,12 +21,19 @@ body {
 .sideBar {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 390px;
     height: 1024px;
     border: 1px solid #EDF1F4;
     background-color: #FFFFFF;
     border-bottom-left-radius: 18px;
     border-top-left-radius: 18px;
+    /*Đè lên backgroud để hiển thị navigation*/
+
+}
+
+.sideBar::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
 }
 
 /* _____________________________________________Icon Menu ____________________ */
@@ -204,6 +211,12 @@ body {
 }
 
 .body_4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28.47px;
+}
+
+.body_44 {
     display: flex;
     flex-direction: column;
 }
@@ -494,10 +507,13 @@ input:checked+.slider:before {
     align-items: center;
     width: 100%;
 }
-.div_main_1{
-    display: block;
 
+.div_main_1 {
+    display: block;
+    width: 1080px;
+    align-self: center;
 }
+
 /* ___________________________________________________________Header________________________________________________________ */
 
 .header {
@@ -575,7 +591,8 @@ input:checked+.slider:before {
 .analytics {
     border: 1px solid #ccc;
     height: 364px;
-    width: 507px;
+    width: 100%;
+    max-width: 504px;
     background: #FFFFFF;
     border: 1.5px solid #EDF1F4;
     border-radius: 5px;
@@ -669,7 +686,7 @@ input:checked+.slider:before {
 .img_41 {
     display: flex;
     justify-content: center;
-    width: 507px;
+    width: 100%;
     height: 258px;
     margin-top: 26.21px;
     margin-left: auto;
@@ -687,7 +704,8 @@ input:checked+.slider:before {
     border: 1px solid #ccc;
     background-color: #FFFFFF;
     height: 364px;
-    width: 502px;
+    width: 100%;
+    max-width: 500px;
     background: #FFFFFF;
     border: 1.5px solid #EDF1F4;
     border-radius: 5px;
@@ -757,9 +775,6 @@ input:checked+.slider:before {
     width: 6px;
 }
 
-
-
-
 .txt {
     font-style: normal;
     font-weight: 500;
@@ -772,12 +787,11 @@ input:checked+.slider:before {
     margin-bottom: 0px;
 }
 
-
 .img_4 {
     display: flex;
     justify-content: center;
     height: 261px;
-    width: 502px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 4px;
     margin-left: auto;
@@ -785,7 +799,6 @@ input:checked+.slider:before {
 }
 
 /* ________________________________________________________________________________End Heatmap_______________________________________________________________________ */
-
 
 
 /* __________________________________________________________________________________Customer & Sale Data_____________________________________________________________________ */
@@ -797,9 +810,10 @@ input:checked+.slider:before {
     border: 1.5px solid #EDF1F4;
     border-radius: 5px;
 }
-.div_main_2{
+
+.div_main_2 {
     display: block;
-    
+
 }
 
 .customer1 {
@@ -845,7 +859,6 @@ input:checked+.slider:before {
     display: flex;
     height: 33px;
 }
-
 
 .footer2 {
     display: flex;
@@ -910,6 +923,12 @@ input:checked+.slider:before {
 .table_newlead {
     display: block;
     background-color: white;
+}
+
+/* Ẩn thanh cuộn đi */
+.table_newlead::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
 }
 
 .newlead {
@@ -1003,7 +1022,7 @@ table {
 .trending {
     background-color: white;
     height: 402px;
-    width: 330px;
+    width: 327px;
     border-radius: 5px;
     border: 1.5px solid #EDF1F4;
 }
@@ -1279,8 +1298,32 @@ table {
 .sideBarReposive {
     display: none;
     flex-direction: column;
-    width: 390px;
+    width: 100%;
+    height: 100vh;
     border: 1px solid #EDF1F4;
+    background-color: #F5F5F5;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.sideBarReposive1 {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #EDF1F4;
+    background-color: #F5F5F5;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidebarReponsive0 {
+    width: 390px;
     background-color: #FFFFFF;
     align-self: center;
 }
@@ -1362,7 +1405,7 @@ table {
     background: #FFFFFF;
     border: 1px solid #EDF1F4;
     justify-content: space-between;
-
+    margin-bottom: 23px;
 }
 
 .img_menu_reponsive {
@@ -1397,16 +1440,22 @@ table {
     border: 1px solid #64AEFF;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
 /* _______________________________________________ End User Reponsive______________________________ */
 /* Reponsive */
 
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1400px) {
     .sideBar {
         display: none;
+        position: fixed;
+        overflow-x: hidden;
+        transition: 0.5s;
     }
+
 
     .header {
         display: none;
@@ -1414,6 +1463,23 @@ table {
 
     .header11 {
         display: flex;
+    }
+
+    .trending {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .newlead11 {
+        max-width: 692px;
+    }
+
+    .sales {
+        width: 340px;
+    }
+
+    .responsive-row-2-flex {
+        gap: 28px;
     }
 }
 
@@ -1427,7 +1493,7 @@ table {
     }
 
     .trending {
-        width: 100%;
+        max-width: 100%;
 
     }
 
@@ -1442,27 +1508,43 @@ table {
     .responsive-customer-sales {
         flex-direction: column;
     }
-    .analytics{
+
+    .img_41 {
         width: 100%;
     }
-    .img_41{
+
+    .img_4 {
         width: 100%;
     }
-    .heatmap {
+
+    .customer {
         width: 100%;
     }
-    .img_4{
+
+    .sales {
         width: 100%;
     }
-    .customer{
-        width: 100%;
-    }
-    .sales{
-        width: 100%;
-    }
-    .footer_icon{
+
+    .footer_icon {
         display: flex;
     }
+
+    .div_main_1 {
+        width: auto;
+    }
+
+    .analytics {
+        max-width: 100%;
+    }
+
+    .heatmap {
+        max-width: 100%;
+    }
+
+    .trending {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1582,6 +1664,7 @@ table {
         display: flex;
     }
 
+
     .main {
         display: none;
     }
@@ -1593,14 +1676,18 @@ table {
     .tx_location {
         margin-top: 23px;
     }
-    .layout{
+
+    .layout {
         flex-direction: column;
     }
-   
+
 }
 
-@media only screen and (max-width: 390px) {}
+@media only screen and (min-width: 1401px) {
+    .sideBar {
+        display: flex;
+    }
+}
 
-
-
+/* --------------------------------------------------------------Reponsive Main---------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------End Main----------------------------------------------------------------------------------------- */
