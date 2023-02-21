@@ -19,18 +19,23 @@ body {
 
 
 .sideBar {
-    display: flex;
+    display: flex ;
     flex-direction: column;
     width: 390px;
-    height: 1024px;
+    height: 1026px;
     border: 1px solid #EDF1F4;
-    background-color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 18px;
     border-top-left-radius: 18px;
     /*Đè lên backgroud để hiển thị navigation*/
 
 }
-
+.sideBarContainer{
+    height: 100%;
+    width: 390px;
+    background-color: white;
+    display: block;
+}
 .sideBar::-webkit-scrollbar {
     width: 0 !important;
     display: none;
@@ -40,9 +45,10 @@ body {
 .body_0 {
     display: flex;
     flex-direction: row;
-    margin-top: 33px;
     margin-left: 28px;
     margin-right: 210px;
+    margin-bottom: 58.23px;
+    padding-top: 33px;
 }
 
 .img_menu21 {
@@ -96,7 +102,6 @@ body {
     height: 30px;
     width: 157px;
     color: #707070;
-    margin-top: 58.23px;
     margin-left: 30px;
     margin-right: 173px;
     font-size: 16px;
@@ -488,7 +493,7 @@ input:checked+.slider:before {
     display: flex;
     flex-direction: row;
     margin-left: 29px;
-    margin-bottom: 24.7px;
+    margin-bottom: 21.7px;
 }
 
 /* ______________________________________________________End Search & Customer__________________________________________ */
@@ -541,6 +546,11 @@ input:checked+.slider:before {
 
 .header1 {
     display: flex;
+    flex-direction: row;
+    border-top: 20px;
+}
+.header12 {
+    display: none;
     flex-direction: row;
     border-top: 20px;
 }
@@ -1402,6 +1412,7 @@ table {
     display: flex;
     flex-direction: row;
     height: 78px;
+    width: 390px;
     background: #FFFFFF;
     border: 1px solid #EDF1F4;
     justify-content: space-between;
@@ -1450,21 +1461,19 @@ table {
 
 @media only screen and (max-width: 1400px) {
     .sideBar {
-        display: none;
+        display: none ;
         position: fixed;
         overflow-x: hidden;
         transition: 0.5s;
+        width: 100%;
+        
     }
-
-
-    .header {
+    .header1{
         display: none;
     }
-
-    .header11 {
+    .header12{
         display: flex;
     }
-
     .trending {
         width: 100%;
         max-width: 330px;
@@ -1487,7 +1496,10 @@ table {
     .responsive-flex {
         flex-direction: column;
     }
-
+   
+    .sideBar{
+        height: 100vh;
+    }
     .responsive-row-2-flex {
         flex-direction: column-reverse;
     }
@@ -1683,11 +1695,7 @@ table {
 
 }
 
-@media only screen and (min-width: 1401px) {
-    .sideBar {
-        display: flex;
-    }
-}
+
 
 /* --------------------------------------------------------------Reponsive Main---------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------End Main----------------------------------------------------------------------------------------- */
