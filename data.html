@@ -16,211 +16,247 @@
 <body id="body">
 
     <div class="layout">
-        <div class="sideBar" id="sideBar" onclick="hiddenSideBar()">
-            <div class="sideBarContainer">
-                <div class="body_0">
-                    <img class="img_menu21" src="image/icon_menu.png" onclick="hiddenSideBar()" />
+        <div class="sideBar" id="sideBar" onclick="hiddenSideBar()"></div>
+        <div class="sideBarContainer" id="sideBarContainer">
+            <div class="body_0">
+                <img class="img_menu21" src="image/icon_menu.png" onclick="hiddenSideBar()" />
+                <div class="body_1">
+                    <img class="img_english" src="image/icon_my.png" />
+                    <select class="selct1">
+                        <option value="0">English</option>
+                        <option value="1">Delhi</option>
+                        <option value="2">Brazil</option>
+                        <option value="3">Mexico</option>
+                        <option value="4">Korea</option>
+                    </select>
+                    <img class="img_down33" src="image/icon_down.png">
 
-
-                    <div class="body_1">
-                        <img class="img_english" src="image/icon_my.png" />
-                        <select class="selct1">
-                            <option value="0">English</option>
-                            <option value="1">Delhi</option>
-                            <option value="2">Brazil</option>
-                            <option value="3">Mexico</option>
-                            <option value="4">Korea</option>
-                        </select>
-                    </div>
                 </div>
-                <text class="tx_location">LOCATION</text>
-                <div class="body_2">
-                    <img class="img_1" src="image/icon_find.png" />
-                    <input class="i_location" placeholder="Enter Location" />
-                </div>
-                <text class="tx_daterange">DATE RANGE</text>
-                <div class="body_3">
-                    <img class="img_2" src="image/icon_date.png" />
-                    <input class="i_selectdate" placeholder="Select Dates" />
-                </div>
-                <div class="body_41">
-                    <div class="body_4">
-                        <text class="tx_vip">VIP</text>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-
-
-                    </div>
-                    <div class="body_5">
-                        <text class="tx_influencer">
-                            INFLUENCER
-                        </text>
-                        <label class="switch">
-                            <input type="checkbox" checked>
-                            <span class="slider round"></span>
-                        </label>
-                    </div>
-                </div>
-
-                <text class="tx_company">COMPANY TYPE</text>
-                <div class="body_6">
-                    <div class="body61 margin_right17px">
-                        <input class="i_staff" placeholder="Staff Count"></input>
-                        <img class="img_down2" src="image/icon_down.png">
-                    </div>
-                    <div class="body61 ">
-                        <input class="i_vol " placeholder="Revenue Vol"></input>
-                        <img class="img_down2" src="image/icon_down.png">
-                    </div>
+            </div>
+            <text class="tx_location">LOCATION</text>
+            <div class="body_2">
+                <img class="img_1" src="image/icon_find.png" />
+                <input class="i_location" placeholder="Enter Location" />
+            </div>
+            <text class="tx_daterange">DATE RANGE</text>
+            <div class="body_3">
+                <img class="img_2" src="image/icon_date.png" />
+                <input class="i_selectdate" placeholder="Select Dates" />
+            </div>
+            <div class="body_41">
+                <div class="body_4">
+                    <text class="tx_vip">VIP</text>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
 
 
                 </div>
+                <div class="body_5">
+                    <text class="tx_influencer">
+                        INFLUENCER
+                    </text>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
 
-                <button class="btn_search">Search</button>
-                <hr width="83%" size="1px" class="hr1">
-                <div class="menu1">
-                    <text class="tx_topcustommer">TOP CUSTOMERS</text>
-                    <img class="img_menu1" src="image/icon_menu1.png">
+            <text class="tx_company">COMPANY TYPE</text>
+            <div class="body_6">
+                <div class="body61 margin_right17px">
+                    <select class="i_staff" placeholder="Staff Count">
+                        <option value="0">Staff Count</option>
+                        <option value="1">Staff Count2</option>
+                        <option value="2">Staff Count3</option>
+                        <option value="3">Staff Count4</option>
+                        <option value="4">Staff Count5</option>
+                        <option value="5">Staff Count6</option>
+                        <option value="6">Staff Count7</option>
+                        <option value="7">Staff Count8</option>
+                    </select>
+                    <img class="img_down2" src="image/icon_down.png">
                 </div>
-                <div class="body_user1">
-                    <img class="img_user" src="image/user1.png" />
-                    <text class="tx_user">Ronald Richards</text>
+                <div class="body61 ">
+                    <select class="i_staff" placeholder="Staff Count">
+                        <option value="0">Revenue Vol</option>
+                        <option value="1">Staff Count2</option>
+                        <option value="2">Staff Count3</option>
+                        <option value="3">Staff Count4</option>
+                        <option value="4">Staff Count5</option>
+                        <option value="5">Staff Count6</option>
+                        <option value="6">Staff Count7</option>
+                        <option value="7">Staff Count8</option>
+                    </select>
+                    <img class="img_down2" src="image/icon_down.png">
                 </div>
-                <div class="body_user">
-                    <img class="img_user" src="image/user2.png" />
-                    <text class="tx_user">Ralph Edwards</text>
-                </div>
-                <div class="body_user">
-                    <img class="img_user" src="image/user3.png" />
-                    <text class="tx_user">Kristin Watson</text>
-                </div>
-                <div class="body_user">
-                    <img class="img_user" src="image/user4.png" />
-                    <text class="tx_user">Esther Howard</text>
-                </div>
-                <div class="body_user">
-                    <img class="img_user" src="image/user5.png" />
-                    <text class="tx_user">Danielle Lane</text>
-                </div>
-                <div class="body_user2">
-                    <img class="img_user" src="image/user6.png" />
-                    <text class="tx_user">Robert Fox</text>
-                </div>
-                <div class="body_user">
-                    <img class="img_user" src="image/user7.png" />
-                    <text class="tx_user">Leslie Alexander</text>
-                </div>
-
 
 
             </div>
+
+            <button class="btn_search">Search</button>
+            <hr width="83%" size="1px" class="hr1">
+            <div class="menu1">
+                <text class="tx_topcustommer">TOP CUSTOMERS</text>
+                <img class="img_menu1" src="image/icon_menu1.png">
+            </div>
+            <div class="body_user1">
+                <img class="img_user" src="image/user1.png" />
+                <text class="tx_user">Ronald Richards</text>
+            </div>
+            <div class="body_user">
+                <img class="img_user" src="image/user2.png" />
+                <text class="tx_user">Ralph Edwards</text>
+            </div>
+            <div class="body_user">
+                <img class="img_user" src="image/user3.png" />
+                <text class="tx_user">Kristin Watson</text>
+            </div>
+            <div class="body_user">
+                <img class="img_user" src="image/user4.png" />
+                <text class="tx_user">Esther Howard</text>
+            </div>
+            <div class="body_user">
+                <img class="img_user" src="image/user5.png" />
+                <text class="tx_user">Danielle Lane</text>
+            </div>
+            <div class="body_user2">
+                <img class="img_user" src="image/user6.png" />
+                <text class="tx_user">Robert Fox</text>
+            </div>
+            <div class="body_user3">
+                <img class="img_user3" src="image/user7.png" />
+                <text class="tx_user">Leslie Alexander</text>
+            </div>
+
+
+
         </div>
 
-        <div class="sideBarReposive">
 
-            <div class="sidebarReponsive0">
-                <div class="header111">
-                    <img class="img_logo" src="image/logoprotech.png">
-                    <div class="header1">
-                        <img class="img_3" src="image/icon_menu.png" />
-                    </div>
-                </div>
+
+        <div class="sidebarReponsive0" id="sidebarReponsive0">
+            <div class="header111">
+                <img class="img_logo" src="image/logoprotech.png">
+
+                <img class="img_3" src="image/icon_menu.png" onclick="showMain()" />
+            </div>
+            <div class="div_location">
                 <text class="tx_location">LOCATION</text>
                 <div class="body_location_reponsive">
                     <img class="img_1" src="image/icon_find.png" />
                     <input class="i_location" placeholder="Enter Location" />
                 </div>
+            </div>
+
+            <div class="div_location">
                 <text class="tx_daterange">DATE RANGE</text>
                 <div class="body_daterange_reponsive">
                     <img class="img_2" src="image/icon_date.png" />
                     <input class="i_selectdate" placeholder="Select Dates" onclick="myDate()" />
                 </div>
-                <div class="body_41">
-                    <div class="body_4">
-                        <text class="tx_vip">VIP</text>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-
-
-                    </div>
-                    <div class="body_5">
-                        <text class="tx_influencer">
-                            INFLUENCER
-                        </text>
-                        <label class="switch">
-                            <input type="checkbox" checked>
-                            <span class="slider round"></span>
-                        </label>
-                    </div>
-                </div>
-
-                <text class="tx_company">COMPANY TYPE</text>
-                <div class="body_6">
-                    <div class="body_company_reponsive margin_right17px">
-                        <input class="i_staff" placeholder="Staff Count"></input>
-                        <img class="img_down2" src="image/icon_down.png">
-                    </div>
-                    <div class="body_company_reponsive ">
-                        <input class="i_vol " placeholder="Revenue Vol"></input>
-                        <img class="img_down2" src="image/icon_down.png">
-                    </div>
+            </div>
+            <div class="body_41">
+                <div class="body_4">
+                    <text class="tx_vip">VIP</text>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
 
 
                 </div>
-
-                <button class="btn_search_reponsive ">Search</button>
-                <hr width="83%" size="1px" class="hr1">
-                <div class="menu1_reponsive">
-                    <text class="tx_topcustommer">TOP CUSTOMERS</text>
-                    <img class="img_menu1" src="image/icon_menu1.png">
-                </div>
-                <div class="div_user">
-                    <div class="div_user1">
-                        <div class="body_user1">
-                            <img class="img_user" src="image/user1.png" />
-                            <text class="tx_user">Ronald Richards</text>
-                        </div>
-                        <div class="body_user">
-                            <img class="img_user" src="image/user2.png" />
-                            <text class="tx_user">Ralph Edwards</text>
-                        </div>
-                    </div>
-                    <div class="div_user2">
-                        <div class="body_user">
-                            <img class="img_user" src="image/user5.png" />
-                            <text class="tx_user">Danielle Lane</text>
-                        </div>
-                        <div class="body_user2">
-                            <img class="img_user" src="image/user6.png" />
-                            <text class="tx_user">Robert Fox</text>
-                        </div>
-                    </div>
-                </div>
-                <button class="btn_viewmore">VIEW MORE</button>
-                <div class="footer_icon_reponsive">
-                    <img class="icon" src="image/cil_house.png" />
-                    <img class="icon" src="image/envelope.png" />
-                    <img class="icon" src="image/shopping.png" />
-                    <img class="icon" src="image/bell.png" />
-                    <img class="icon" src="image/heart.png" />
-                    <img class="icon" src="image/profile.png" />
+                <div class="body_5">
+                    <text class="tx_influencer">
+                        INFLUENCER
+                    </text>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
                 </div>
             </div>
+
+            <text class="tx_company">COMPANY TYPE</text>
+            <div class="body_6">
+                <div class="body_company_reponsive margin_right17px">
+                    <select class="i_staff">
+                        <option value="0">Staff Count</option>
+                        <option value="1">Staff Count2</option>
+                        <option value="2">Staff Count3</option>
+                        <option value="3">Staff Count4</option>
+                        <option value="4">Staff Count5</option>
+                        <option value="5">Staff Count6</option>
+                        <option value="6">Staff Count7</option>
+                        <option value="7">Staff Count8</option>
+                    </select>
+                    <img class="img_down2" src="image/icon_down.png">
+                </div>
+                <div class="body_company_reponsive ">
+                    <select class="i_staff">
+                        <option value="0">Revenue Vol</option>
+                        <option value="1">Staff Count2</option>
+                        <option value="2">Staff Count3</option>
+                        <option value="3">Staff Count4</option>
+                        <option value="4">Staff Count5</option>
+                        <option value="5">Staff Count6</option>
+                        <option value="6">Staff Count7</option>
+                        <option value="7">Staff Count8</option>
+                    </select>
+                    <img class="img_down2" src="image/icon_down.png">
+                </div>
+
+
+            </div>
+            <div class="div_btn_search">
+                <button class="btn_search_reponsive ">Search</button>
+            </div>
+            <hr width="83%" size="1px" class="hr1">
+            <div class="menu1_reponsive">
+                <text class="tx_topcustommer">TOP CUSTOMERS</text>
+                <img class="img_menu1" src="image/icon_menu1.png">
+            </div>
+            <div class="div_user">
+
+                <div class="body_user1">
+                    <img class="img_user" src="image/user1.png" />
+                    <text class="tx_user">Ronald Richards</text>
+                </div>
+                <div class="body_user1">
+                    <img class="img_user" src="image/user1.png" />
+                    <text class="tx_user">Ronald Richards</text>
+                </div>
+                <div class="body_user1">
+                    <img class="img_user" src="image/user1.png" />
+                    <text class="tx_user">Ronald Richards</text>
+                </div>
+                <div class="body_user1">
+                    <img class="img_user" src="image/user1.png" />
+                    <text class="tx_user">Ronald Richards</text>
+                </div>
+            </div>
+            <button class="btn_viewmore">VIEW MORE</button>
+            <div class="footer_icon_reponsive">
+                <img class="icon" src="image/cil_house.png" />
+                <img class="icon" src="image/envelope.png" />
+                <img class="icon" src="image/shopping.png" />
+                <img class="icon" src="image/bell.png" />
+                <img class="icon" src="image/heart.png" />
+                <img class="icon" src="image/profile.png" />
+            </div>
+
         </div>
 
-        <div class="main" id="anmain">
+        <div class="main" id="main">
             <!-- --------------------------------body_44b---------------------------------------------------------Header-------------------------------------------------------------- -->
             <div class="header">
-                <img class="img_logo" src="image/logoprotech.png">
+                <img class="img_logo" src="image/logoprotech.png" onclick="showSideBar2()">
 
                 <div class="header1">
                     <select class="select2">
-                        <option value="0">Isabella F. ></option>
-                        <option value="1">RonaldoRichards</option>
+                        <option value="0">Isabella F.</option>
                         <option value="2">Kylia Embabe</option>
                         <option value="3">Neymar</option>
                         <option value="4">Esther Messi</option>
@@ -233,7 +269,7 @@
                 </div>
             </div>
             <div class="div_main1">
-                
+
                 <div class="div_main_1">
                     <div class="responsive-flex">
                         <!-- ----------------------------------------------------------------------------------Analytics------------------------------------------------------------ -->
@@ -241,7 +277,13 @@
                             <div class="analytics1">
                                 <text class="tx_analytics">ANALYTICS</text>
                                 <div class="body_analytics1">
-                                    <text class="tx_date1">1 Dec - 20 Jan</text>
+                                    <select class="tx_date1">
+                                        <option value="0">1 Dec - 20 Jan</option>
+                                        <option value="1">Delhi</option>
+                                        <option value="2">Brazil</option>
+                                        <option value="3">Mexico</option>
+                                        <option value="4">Korea</option>
+                                    </select>
                                     <img class="img_down1" src="image/icon_down.png">
                                 </div>
                                 <div class="body_next1">
@@ -261,7 +303,13 @@
                             <div class="heatmap1">
                                 <text class="tx_global_heatmap"> GLOBAL HEATMAP</text>
                                 <div class="body_analytics1">
-                                    <text class="tx_date1">1 Dec - 20 Jan</text>
+                                    <select class="tx_date1">
+                                        <option value="0">1 Dec - 20 Jan</option>
+                                        <option value="1">Delhi</option>
+                                        <option value="2">Brazil</option>
+                                        <option value="3">Mexico</option>
+                                        <option value="4">Korea</option>
+                                    </select>
                                     <img class="img_down1" src="image/icon_down.png">
                                 </div>
                                 <img class="img_date_heatmap" src="image/icon_date.png" />
@@ -384,6 +432,7 @@
                             <!-- ----------------------------------------------------------------------------------New Leads---------------------------------------------------------------------------------- -->
 
                             <div class="newlead11">
+
                                 <div class="newlead">
                                     <text class="tx_newlead">NEW LEADS</text>
                                     <div class="newlead1">
@@ -393,31 +442,31 @@
                                 </div>
                                 <table style="width: 100%; text-align: left; " class="table_newlead">
                                     <thead>
-                                        <th style="width: 7%;">
+                                        <th style="width: 7%;text-align: left;">
                                             <div class="body_lead">
-                                                <text class="tx_newlead1">SOURCE</text>
+                                                <text class="tx_newSource">SOURCE</text>
                                                 <img class="img_down3 margin_right_5px" src="image/icon_down.png" />
                                             </div>
                                         </th>
-                                        <th style="width: 23%;">
+                                        <th style="width: 23%;text-align: left;">
                                             <div class="body_lead">
-                                                <text class="tx_newlead1 margin_left_27px">DATE</text>
+                                                <text class="tx_newlead1 ">DATE</text>
                                                 <img class="img_down3 " src="image/icon_down.png" />
                                             </div>
                                         </th>
-                                        <th style="width: 20%;">
+                                        <th style="width: 20%;text-align: left;">
                                             <div class="body_lead">
-                                                <text class="tx_newlead1 margin_left_27px">QUOTE</text>
+                                                <text class="tx_newlead1 ">QUOTE</text>
                                                 <img class="img_down3 margin_right_15px" src="image/icon_down.png" />
                                             </div>
                                         </th>
-                                        <th style="width: 25%;">
+                                        <th style="width: 25%;text-align: left;">
                                             <div class="body_lead">
                                                 <text class="tx_newlead2">MANAGER</text>
                                                 <img class="img_down3 " src="image/icon_down.png" />
                                             </div>
                                         </th>
-                                        <th style="width: 25%;">
+                                        <th style="width: 25%;text-align: left;">
                                             <div class="body_lead">
                                                 <text class="tx_newlead2">CUSTOMER</text>
                                                 <img class="img_down3 " src="image/icon_down.png" />
@@ -619,13 +668,25 @@
         <script>
             function hiddenSideBar() {
                 document.getElementById("sideBar").style.display = "none"
+                document.getElementById("sideBarContainer").style.display = "none"
                 document.getElementById("body").style.overflow = "auto"
                 document.getElementById("body").style.display = "block"
 
             }
             function sideBar() {
                 document.getElementById("sideBar").style.display = "flex"
+                document.getElementById("sideBarContainer").style.display = "block"
+                document.getElementById("sideBarContainer").style.width = "390px"
                 document.getElementById("body").style.overflow = "hidden"
+
+            }
+            function showMain() {
+                document.getElementById("main").style.display = "block"
+                document.getElementById("sidebarReponsive0").style.display = "none"
+            }
+            function showSideBar2() {
+                document.getElementById("sidebarReponsive0").style.display = "block"
+                document.getElementById("main").style.display = "none"
 
             }
 
