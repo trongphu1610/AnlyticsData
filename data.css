@@ -939,6 +939,10 @@ input:checked+.slider:before {
 
 
 /* ____________________________________________________________________New Leads_______________________________________________________________________________________________ */
+.div_newlead {
+    width: 100%;
+    overflow: hidden;
+}
 
 .newlead11 {
     display: block;
@@ -948,7 +952,8 @@ input:checked+.slider:before {
     border-radius: 5px;
     margin-top: 23px;
     width: 100%;
-    max-width: 680px;
+    overflow: auto;
+    max-width: 692px;
 }
 
 .newlead112 {
@@ -959,8 +964,8 @@ input:checked+.slider:before {
     border-radius: 5px;
     margin-top: 23px;
     width: auto;
-    margin-left: 29px;
-    margin-right: 31px;
+    overflow: auto;
+    margin-left: 12px;
     max-width: 540px;
 }
 
@@ -1536,9 +1541,7 @@ table {
         max-width: 330px;
     }
 
-    .newlead11 {
-        max-width: 692px;
-    }
+
 
     .sales {
         width: 340px;
