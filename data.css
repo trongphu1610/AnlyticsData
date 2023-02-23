@@ -940,6 +940,7 @@ input:checked+.slider:before {
 /* ____________________________________________________________________New Leads_______________________________________________________________________________________________ */
 
 .newlead11 {
+    display: block;
     height: 226px;
     background: #FFFFFF;
     border: 1.5px solid #EDF1F4;
@@ -948,7 +949,18 @@ input:checked+.slider:before {
     width: 100%;
     max-width: 680px;
 }
-
+.newlead112 {
+    display: none;
+    height: 226px;
+    background: #FFFFFF;
+    border: 1.5px solid #EDF1F4;
+    border-radius: 5px;
+    margin-top: 23px;
+    width: auto;
+    margin-left: 29px;
+    margin-right: 31px;
+    max-width: 540px;
+}
 .table_newlead {
     display: block;
 }
@@ -1609,7 +1621,7 @@ table {
 
 }
 
-@media only screen and (max-width: 908px) {
+@media only screen and (max-width: 768px) {
     .responsive-flex {
         flex-direction: column;
     }
@@ -1646,13 +1658,7 @@ table {
         margin-top: 5px;
     }
 
-    /* .trending {
-        height: 412px;
-    }
-
-    .newlead11 {
-        height: 268px;
-    } */
+    
 
     .responsive-customer-sales {
         flex-direction: column;
@@ -1683,8 +1689,7 @@ table {
 
 
     .newlead11 {
-        min-width: 20px;
-        width: 100%;
+       display: none;
 
     }
 
@@ -1693,7 +1698,12 @@ table {
         width: 100%;
     }
 
-
+    .newlead112{
+        display: block;
+    }
+    .main{
+        text-align: -webkit-center;
+    }
 
     .img_4 {
         min-width: 20px;
@@ -1710,39 +1720,7 @@ table {
         overflow: auto;
     }
 }
-/* 
 
-@media only screen and (max-width: 576px) {
-
-    .header {
-        display: flex;
-    }
-
-    .sidebarReponsive0 {
-        display: flex;
-    }
-
-
-    .main {
-        display: none;
-    }
-
-    .body_5 {
-        margin-left: 17px;
-    }
-
-    .tx_location {
-        margin-top: 23px;
-    }
-
-    .layout {
-        flex-direction: column;
-    }
-
-    .footer_icon {
-        display: flex;
-    }
-} */
 
 @media only screen and (min-width: 1401px) {
     .sideBarContainer {
